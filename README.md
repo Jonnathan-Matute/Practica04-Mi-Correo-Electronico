@@ -1,4 +1,4 @@
-# Resolución de problemas sobre PHP y MySQL
+# RESOLUCIÓN DE PROBLEMAS SOBRE PHP Y MySQL
 
 # OBJETIVO ALCANZADO:
 •	Entender y organizar de una mejor manera los sitios de web en Internet 
