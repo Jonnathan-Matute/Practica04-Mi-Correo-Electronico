@@ -83,7 +83,7 @@ CREATE TABLE correo ( cor_codigo int(11) NOT NULL AUTO_INCREMENT, cor_usu_remite
 
 6.	Luego, se debe crear el archivo README del repositorio de GitHub. 
 
-
+![read](https://user-images.githubusercontent.com/34014602/58284685-bea7fc00-7d70-11e9-80e0-9680b3e9fb7a.png)
 
 7.	Diseño de las páginas HTML usando CSS y su FUNCIONAMIENTO.
 
