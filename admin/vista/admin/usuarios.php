@@ -16,6 +16,7 @@
                 include '../../../config/conexionBD.php';
                 $codigo_admin = $_GET["codigo_admin"];
             ?>
+            <header class="header">
             <nav>
                 <ul>
                     <li><a href="index.php?codigo_admin=<?php echo $codigo_admin ?>">Inicio</a></li>
@@ -23,7 +24,9 @@
                     <li><a href="../../../config/cerrar_sesion.php">Cerrar Sesion</a></li>
                 </ul>
             </nav>
-            <section class="info2">
+            </header>
+            <main class="main">
+            <section class="info">
                 <?php
                     $sqli ="SELECT usu_imagen,usu_nombres,usu_apellidos FROM usuario WHERE usu_codigo='$codigo_admin'";
                     $stm = $conn->query($sqli);

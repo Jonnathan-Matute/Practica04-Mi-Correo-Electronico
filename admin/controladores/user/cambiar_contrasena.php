@@ -6,7 +6,6 @@
     </head>
     <body>
         <?php
-            //Incluir conexion a la BD
             include "../../../config/conexionBD.php";
 
             $codigo = $_POST["codigo"];

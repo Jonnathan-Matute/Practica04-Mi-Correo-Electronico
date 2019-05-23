@@ -13,13 +13,17 @@
             <link rel="stylesheet" rel="stylesheet" href="../../../index.css">
         </head>
         <body>
+        <?php
+            include '../../../config/conexionBD.php';
+            $codigo = $_GET['codigo'];
+        ?>
             <?php
                 $codigo = $_GET['codigo'];
             ?>
             <header class="header">
             <nav>
                 <ul>
-                    <li><a href="index.php?codigo=<?php echo $codigo ?>"">Inicio</a></li>
+                    <li><a href="index.php?codigo=<?php echo $codigo ?>">Inicio</a></li>
                     <li><a href="nuevo_mensaje.php?codigo=<?php echo $codigo ?>">Nuevo Mensaje</a></li>
                     <li><a href="mensajes_enviados.php?codigo=<?php echo $codigo ?>">Mensajes Enviados</a></li>
                     <li><a href="micuenta.php?codigo=<?php echo $codigo ?>">Mi cuenta</a></li>
@@ -28,6 +32,20 @@
             </nav>
             </header>
             <main class="main">
+        
+        <section class="info">
+            <?php
+                $sqli ="SELECT usu_imagen,usu_nombres,usu_apellidos FROM usuario WHERE usu_codigo='$codigo'";
+                $stm = $conn->query($sqli);
+                while ($datos = $stm->fetch_object()){
+            ?>
+                <p><?php echo $datos->usu_nombres." ".$datos->usu_apellidos ?></p>
+                <img src="data:image/jpg; base64,<?php echo base64_encode($datos->usu_imagen) ?>">
+            <?php   
+                }
+            ?>
+          </section>
+           
             <section class="mensajes">
                 <h3>Mensajes Enviados</h3>
                 <form id="form_mensajes">

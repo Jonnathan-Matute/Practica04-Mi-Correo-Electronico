@@ -17,7 +17,7 @@ body{
 }
 
 .box h1, .box_registro h1{
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -61,7 +61,7 @@ body{
     border: 2px solid  #db1010;
     padding: 14px 40px;
     outline: none;
-    color: white;
+    color: black;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
@@ -86,7 +86,7 @@ body{
 
 .error, .box p{
     text-align: center;
-    color:white;
+    color:black;
     font-size: 20px;
 
 }
@@ -112,7 +112,7 @@ nav ul li a {
     transition: all 0.4s all;
     text-decoration: none;
     border-radius: 5px;
-    color: white;
+    color: black;
 }
 
 .header{
@@ -139,7 +139,7 @@ nav ul li a {
 }
 
 .info p{
-    color: white;
+    color:black;
     font-weight: bold;
 }
 
@@ -149,7 +149,7 @@ nav ul li a {
 }
 
 .mensajes h3{
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -172,7 +172,7 @@ nav ul li a {
     }
 #buzon tr:hover,#buzon td:hover{
         background: #000;
-        color: #fff; 
+        color: black; 
     }
 
 #buzon th{
@@ -202,7 +202,7 @@ footer{
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: white;
+    color: black;
     transition: 0.25s;
     float: left;
 }
@@ -216,7 +216,7 @@ footer{
     border: 2px solid  #db1010;
     padding: 14px 40px;
     outline: none;
-    color: white;
+    color: black;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
@@ -239,7 +239,7 @@ footer{
 
 #formulario01 label{
     display: block;
-    color: white;
+    color: black;
     min-width: 7%;
     width: 7%;
     float: left;
@@ -259,7 +259,7 @@ footer{
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: white;
+    color:black;
     transition: 0.25s;
 }
 
@@ -272,7 +272,7 @@ footer{
     border: 2px solid  #db1010;
     padding: 14px 40px;
     outline: none;
-    color: white;
+    color: black;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;    
@@ -284,7 +284,7 @@ footer{
 
 
 .accion a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .accion a:hover{
@@ -292,17 +292,22 @@ footer{
 }
 
 .box h3{
-    color: white;
+    color: black;
+    text-align: center;
+}
+
+h3{
+    color: black;
     text-align: center;
 }
 
 .box input[type="file"]{
-    color: white;
+    color: black;
     width: 300px;
 }
 
 .box .contrasena, .box .modificar,.box .elimina{
-    color: white;
+    color:black;
     text-align: center;
 }
 
@@ -319,7 +324,7 @@ footer{
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: white;
+    color:black;
     transition: 0.25s;
 }
 
@@ -334,7 +339,7 @@ footer{
     border-bottom: 2px solid;
     padding: 7px 10px;
     outline: none;
-    color: white;
+    color: black;
     transition: 0.25s;
 }
 
@@ -353,6 +358,6 @@ footer{
 }
 
 .info2 p{
-    color: white;
+    color: black;
     font-weight: bold;
 }
